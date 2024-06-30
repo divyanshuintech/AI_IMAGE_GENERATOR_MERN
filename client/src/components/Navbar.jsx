@@ -26,7 +26,7 @@ const Navbar = () => {
   const path = location.pathname.split("/");
   return (
     <Container>
-      GenAI
+      PixelCrafter
       {path[1] === "create-post" ? (
         <Button
           onClick={() => navigate("/")}
